@@ -13,11 +13,17 @@ namespace TOCKA
         public FrontPage()
         {
             InitializeComponent();
+            
         }
 
         private async void OnDismissButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
+        }
+
+        private async void Button_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new MenuPage());
         }
     }
 }

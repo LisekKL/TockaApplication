@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TOCKA.FrontPage">
   <StackLayout>
+    <Button
+        BackgroundColor="Blue"
+        TextColor="White"
+        Text="HERE"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Clicked="Button_OnClicked"
+        ></Button>
   <Label Text="FRONT PAGE" VerticalOptions="Center" HorizontalOptions="Center" />
    <Button
      Text="Back"
