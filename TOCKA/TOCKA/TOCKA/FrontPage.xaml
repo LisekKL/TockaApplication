@@ -4,5 +4,10 @@
              x:Class="TOCKA.FrontPage">
   <StackLayout>
   <Label Text="FRONT PAGE" VerticalOptions="Center" HorizontalOptions="Center" />
+   <Button
+     Text="Back"
+     BackgroundColor="Blue"
+     TextColor="White"
+     Clicked="OnDismissButton_OnClicked"></Button>
   </StackLayout>
     </ContentPage>

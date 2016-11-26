@@ -25,7 +25,7 @@ namespace TOCKA
             password = PasswordEntry.Text;
 
             if (ifTrue(login, password))
-                await Navigation.PushAsync(new FrontPage());
+                await Navigation.PushModalAsync(new FrontPage());
             else
              await DisplayAlert("Fail", "Failed to log in. Check your Login information.", "OK");
 

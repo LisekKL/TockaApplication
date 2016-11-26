@@ -14,5 +14,10 @@ namespace TOCKA
         {
             InitializeComponent();
         }
+
+        private async void OnDismissButton_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
     }
 }
