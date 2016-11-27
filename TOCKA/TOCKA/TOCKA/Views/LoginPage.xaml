@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TOCKA.Views.LoginPage"
+             BackgroundColor="#e4e4e4">
+    <StackLayout
+        HorizontalOptions="CenterAndExpand"
+        VerticalOptions="Start">
+      <Image
+        Source="tockalogo"
+        Margin="-40,0,0,0"></Image>  
+      <Entry
+            x:Name="LoginEntry"
+            Placeholder="Login"
+            WidthRequest="200"
+            TextColor="Gray" />
+        <Entry
+            x:Name="PasswordEntry"
+            Placeholder="Password"
+            WidthRequest="200"
+            TextColor="Gray" />
+      <StackLayout
+      Orientation="Horizontal"
+      HorizontalOptions="CenterAndExpand">
+        <Button Clicked="NavigateButton_OnClicked"
+                BackgroundColor="Blue"
+                TextColor="White"
+                WidthRequest="100"
+                Text="Sign in"
+                />
+        <Button Clicked="NavigateButton_OnClicked"
+                BackgroundColor="Blue"
+                TextColor="White"
+                 WidthRequest="100"
+                Text="Sign up" 
+                />
+      </StackLayout>
+      <StackLayout
+        Orientation="Horizontal"
+        Margin="0,20,0,0"
+        HorizontalOptions="CenterAndExpand">
+        <Button Clicked="NavigateButton_OnClicked"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Text="F"
+                />
+        <Button Clicked="NavigateButton_OnClicked"
+                BackgroundColor="Red"
+                TextColor="White"
+                Text="G+"
+                />
+      </StackLayout>
+    </StackLayout>
+</ContentPage>
