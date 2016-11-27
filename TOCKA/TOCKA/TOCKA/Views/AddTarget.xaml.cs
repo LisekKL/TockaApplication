@@ -11,7 +11,26 @@ namespace TOCKA.Views
         }
         private async void AddTaskClick(object sender, EventArgs e)
         {
-            //TODO navigate 
+            difficultyPicker.IsVisible = !difficultyPicker.IsVisible;
         }
+        private async void SaveTaskClick(object sender, EventArgs e)
+        {
+            difficultyPicker.IsVisible = !difficultyPicker.IsVisible;
+            var a = task1.Text;
+            var b = task2.Items[task2.SelectedIndex];
+            taskName.Text = a;
+            taskDifficulty.Text = b;
+            descr.IsVisible = true;
+
+
+        }
+
+        private async void CleanThis(object sender, EventArgs e)
+        {
+            taskName.Text = "";
+            taskDifficulty.Text = "";
+            descr.IsVisible = false;
+        }
+
     }
 }
