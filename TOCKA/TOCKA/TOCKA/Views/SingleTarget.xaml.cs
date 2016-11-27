@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 
-namespace TOCKA
+namespace TOCKA.Views
 {
     public partial class SingleTarget : ContentPage
     {
