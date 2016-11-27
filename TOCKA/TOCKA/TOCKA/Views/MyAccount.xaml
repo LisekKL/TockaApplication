@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TOCKA.Views.MyAccount">
+    <StackLayout Margin="10,20,0,0">
+        <StackLayout
+            Orientation="Horizontal">
+            <Image Source="trump.png"
+                   WidthRequest="100"
+                   HeightRequest="100" />
+            <Label
+                Text="Donald"
+                HeightRequest="100"
+                VerticalTextAlignment="Center"
+                TextColor="Black"
+                FontSize="24"
+                Margin="20,0,0,0" />
+            <Label
+                Text="Trump"
+                HeightRequest="100"
+                VerticalTextAlignment="Center"
+                TextColor="Black"
+                FontSize="24" />
+        </StackLayout>
+        <StackLayout>
+            <Label Text="100500 lvl"
+                   FontSize="18"
+                   Margin="125,0,0,0"
+                   TextColor="Red" />
+        </StackLayout>
+        <Label
+
+            Text="Total progress - 60/100"
+            TextColor="Black"
+            FontSize="18"
+            Margin="30,20,0,0" />
+        <ProgressBar Margin="30"
+                     Progress="0.6" />
+      
+        <Label Text="Recent targets:" Margin="30,0,0,0"
+               FontSize="18" TextColor="Black" />
+        <Label
+
+            Text="Be elected as PRESIDENT - 100%"
+            TextColor="Black"
+            FontSize="14"
+            Margin="30,10,0,0" />
+
+
+        <ProgressBar Margin="30"
+                     Progress="1"
+                     x:Name="firstProgress" />
+
+        <Label
+            Text="Running - 60%"
+            TextColor="Black"
+            FontSize="14"
+            Margin="30,0,0,0" />
+        <ProgressBar Margin="30"
+                     Progress="0.6" />
+
+    </StackLayout>
+</ContentPage>
