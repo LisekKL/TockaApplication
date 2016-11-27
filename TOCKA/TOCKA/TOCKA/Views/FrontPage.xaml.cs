@@ -15,7 +15,7 @@ namespace TOCKA.Views
         
 
         private async void OnDismissButton_OnClicked(object sender, EventArgs e)
-        {
+        { //TAKI NIBY LOGOUT ? NIC NIE UMIEM ;_;
             await Navigation.PopModalAsync();
         }
 
