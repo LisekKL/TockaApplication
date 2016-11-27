@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 
-namespace TOCKA
+namespace TOCKA.Views
 {
     public partial class FrontPage : ContentPage
     {
@@ -21,7 +15,7 @@ namespace TOCKA
         
 
         private async void OnDismissButton_OnClicked(object sender, EventArgs e)
-        {
+        { //TAKI NIBY LOGOUT ? NIC NIE UMIEM ;_;
             await Navigation.PopModalAsync();
         }
 

@@ -1,29 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TOCKA.MainPage">
-  <StackLayout
-    BackgroundColor="Gray">
-    <Entry
-      x:Name="LoginEntry"
-      Text="Login"
-      VerticalOptions="Center" 
-          HorizontalOptions="Center"
-      TextColor="Gray"
-      ></Entry>
+             x:Class="TOCKA.Views.MainPage">
+    <StackLayout
+        BackgroundColor="Gray">
+        <Entry
+            x:Name="LoginEntry"
+            Placeholder="Login"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="Gray" />
 
-    <Entry
-      x:Name="PasswordEntry"
-      Text="Password"
-      VerticalOptions="Center"
-          HorizontalOptions="Center"
-      TextColor="Gray"
-      ></Entry>
-  <Button Clicked="NavigateButton_OnClicked"
-          BackgroundColor="Blue"
-          TextColor="White"
-          VerticalOptions="Center" 
-          HorizontalOptions="Center"
-    Text="Zaloguj"></Button>
-  </StackLayout>
+        <Entry
+            x:Name="PasswordEntry"
+            Placeholder="Password"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="Gray" />
+        <Button Clicked="NavigateButton_OnClicked"
+                BackgroundColor="Blue"
+                TextColor="White"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Text="Zaloguj" />
+    </StackLayout>
 </ContentPage>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using TOCKA.Views;
 using Xamarin.Forms;
 
 namespace TOCKA
@@ -11,10 +11,7 @@ namespace TOCKA
     {
         public App()
         {
-
-
-            MainPage = new NavigationPage(new MainPage());
-            
+            MainPage = new NavigationPage(new MainPage());         
         }
 
         protected override void OnStart()
