@@ -4,13 +4,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TOCKA.Views.LoginPage"
              BackgroundColor="#e4e4e4"
-             Title="Login">
+             Title=".Tocka">
     <StackLayout
         HorizontalOptions="CenterAndExpand"
         VerticalOptions="Start">
-        <Image
-            Source="tockalogo"
-            Margin="-40,0,0,0" />
+       
         <Entry
             x:Name="LoginEntry"
             Placeholder="Login"

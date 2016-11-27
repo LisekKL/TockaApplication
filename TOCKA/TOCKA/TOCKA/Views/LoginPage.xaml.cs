@@ -23,7 +23,7 @@ namespace TOCKA.Views
 
         private bool ifTrue(string login, string pass)
         {
-            if ((login == "eh") && (pass == "eh"))
+            if ((login == "Huge Trump") && (pass == "eh"))
                 return true;
             return false;
         }

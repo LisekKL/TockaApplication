@@ -15,10 +15,52 @@
         <Button
             HorizontalOptions="Start"
             Text="+ Add task"
-            Clicked="AddTaskClick" />
+            Clicked="AddTaskClick"
+            BackgroundColor="#2196F3" TextColor="White" />
+        <StackLayout
+            x:Name="difficultyPicker"
+            IsVisible="False">
+            <Label
+                Text="Name your task" />
+            <Entry
+                Placeholder="Enter task name" 
+          x:Name="task1"/>
+            <Label
+                Text="Choose a difficulty"
+               />
+            <Picker Title="Difficulty"
+                     x:Name="task2">
+                <Picker.Items>
+                    <x:String>Easy</x:String>
+                    <x:String>Medium</x:String>
+                    <x:String>Hardcore</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label
+                Text="Start date" />
+            <DatePicker />
+            <Label
+                Text="End date" />
+            <DatePicker />
+            <Button
+                Clicked="SaveTaskClick"
+                HorizontalOptions="End"
+                Text="Save" BackgroundColor="#2196F3"
+                TextColor="White" />
+        </StackLayout>
+        <StackLayout
+          x:Name="descr"
+          IsVisible="false"
+          Margin="10,10,0,0">
+          <Label Text="Tasks"
+                 FontSize="22"
+                 TextColor="Black"></Label>
+          <Label x:Name="taskName" TextColor="Black" FontSize="18"></Label>
+          <Label x:Name="taskDifficulty" TextColor="Black" FontSize="18"></Label>
+        </StackLayout>
 
         <StackLayout>
-            <Button Text="Save" />
+            <Button Text="Save" BackgroundColor="#2196F3" TextColor="White" Clicked="CleanThis" />
         </StackLayout>
 
     </StackLayout>

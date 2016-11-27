@@ -7,6 +7,9 @@ namespace TOCKA.Views
         public MyAccount()
         {
             InitializeComponent();
+            
+            //firstProgress.ProgressTo(1, 500, Easing.Linear);
+            
         }
     }
 }

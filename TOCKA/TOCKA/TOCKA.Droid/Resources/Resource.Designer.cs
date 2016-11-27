@@ -2218,8 +2218,8 @@ namespace TOCKA.Droid
 			// aapt resource value: 0x7f0200a6
 			public const int mr_ic_play_light = 2130837670;
 			
-			// aapt resource value: 0x7f0200aa
-			public const int notification_template_icon_bg = 2130837674;
+			// aapt resource value: 0x7f0200ac
+			public const int notification_template_icon_bg = 2130837676;
 			
 			// aapt resource value: 0x7f0200a7
 			public const int puchar = 2130837671;
@@ -2229,6 +2229,12 @@ namespace TOCKA.Droid
 			
 			// aapt resource value: 0x7f0200a9
 			public const int target = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int tockalogo = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int trump = 2130837675;
 			
 			static Drawable()
 			{
