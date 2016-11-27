@@ -22,7 +22,13 @@
                 BackgroundColor="Blue"
                 TextColor="White"
                 VerticalOptions="Center"
-                HorizontalOptions="Center"
+                HorizontalOptions="End"
                 Text="Zaloguj" />
+      <Button Clicked="NavigateToRegister"
+               BackgroundColor="Blue"
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="End"
+               Text="Zaloguj" />
     </StackLayout>
 </ContentPage>
