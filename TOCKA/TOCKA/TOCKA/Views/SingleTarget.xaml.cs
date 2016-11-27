@@ -14,5 +14,15 @@ namespace TOCKA
         {
             InitializeComponent();
         }
+
+        private async void NavigateBack(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
+
+        private async void GoToAddTask(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new AddTask());
+        }
     }
 }
