@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,16 +15,15 @@ namespace TOCKA
         {
             InitializeComponent();
             
+            
+
         }
+        
 
         private async void OnDismissButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
         }
 
-        private async void Button_OnClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new MenuPage());
-        }
     }
 }

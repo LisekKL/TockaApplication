@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage 
+             xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TOCKA.MenuPage"
              xmlns:local="clr-namespace:TOCKA;assembly=TOCKA">
   <MasterDetailPage.Master>
     <ContentPage
       Title="MENU">
-      <StackLayout Orientation="Vertical">
+      <StackLayout VerticalOptions="FillAndExpand">
         <Button Text="My Account"/>
         <Button Text="Add target"/>
         <Button Text="List of targets"/>
@@ -20,7 +21,9 @@
   </MasterDetailPage.Master>
 
   <MasterDetailPage.Detail>
+    <NavigationPage>
     <local:FrontPage/>
+    </NavigationPage>
   </MasterDetailPage.Detail>
 
 </MasterDetailPage>
