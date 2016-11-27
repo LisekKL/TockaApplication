@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace TOCKA.Views
 {
@@ -7,6 +8,11 @@ namespace TOCKA.Views
         public SingleTask()
         {
             InitializeComponent();
+        }
+
+        private async void NavigateBack(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
         }
     }
 }

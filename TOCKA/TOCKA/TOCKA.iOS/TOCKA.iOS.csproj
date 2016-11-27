@@ -10,7 +10,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>TOCKA.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>TOCKA.iOS</AssemblyName>
+    <AssemblyName>TOCKAiOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>

@@ -250,3 +250,4 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/TOCKA/TOCKA/TOCKA.iOS/TOCKA.iOS.csproj.bak
