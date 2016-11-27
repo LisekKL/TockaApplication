@@ -11,10 +11,6 @@ namespace TOCKA.Views.MasterMainPage
 
             masterPage.ListView.ItemSelected += OnItemSelected;
 
-            if (Device.OS == TargetPlatform.Windows)
-            {
-                Master.Icon = "swap.png";
-            }
         }
 
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)

@@ -5,7 +5,7 @@ namespace TOCKA.Views.MasterMainPage
 {
     public partial class MasterPage : ContentPage
     {
-        public ListView ListView { get { return listView; } }
+        public ListView ListView => listView;
 
         public MasterPage()
         {
@@ -15,21 +15,27 @@ namespace TOCKA.Views.MasterMainPage
             {
                 new MasterPageItem
                 {
-                    Title = "Contacts",
-                    IconSource = "contacts.png",
+                    Title = "Account",
+                    IconSource = "acc.png",
+                    TargetType = typeof(MyAccount)
+                },
+                new MasterPageItem
+                {
+                    Title = "Add target",
+                    IconSource = "target.png",
                     TargetType = typeof(AddTarget)
                 },
                 new MasterPageItem
                 {
-                    Title = "TodoList",
-                    IconSource = "todo.png",
-                    TargetType = typeof(AddTask)
+                    Title = "Target list",
+                    IconSource = "list.png",
+                    TargetType = typeof(ListofTargets)
                 },
                 new MasterPageItem
                 {
-                    Title = "Reminders",
-                    IconSource = "reminders.png",
-                    TargetType = typeof(ListofTargets)
+                    Title = "Leaderboards",
+                    IconSource = "leaderboard.png",
+                    TargetType = typeof(Leaderboards)
                 }
             };
 

@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace TOCKA.Views
 {
@@ -7,6 +8,10 @@ namespace TOCKA.Views
         public AddTarget()
         {
             InitializeComponent();
+        }
+        private async void AddTaskClick(object sender, EventArgs e)
+        {
+            //TODO navigate 
         }
     }
 }
