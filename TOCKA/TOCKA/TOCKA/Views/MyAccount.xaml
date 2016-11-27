@@ -2,5 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TOCKA.Views.MyAccount">
-  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout>
+    <Label
+      Text="TARGET -TITLEE ;_;"></Label>
+    <ProgressBar
+      x:Name="LevelProgressBar"
+      VerticalOptions="Center"
+      HorizontalOptions="Center"
+        BackgroundColor="Green"><!--LEVEL--></ProgressBar>
+    <!--LEVEL-->
+    <Label></Label>
+    <ListView></ListView>
+    <!--OPTIONS, Cokolwiek-->
+ 
+   
+  </StackLayout>
 </ContentPage>

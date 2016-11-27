@@ -2,5 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TOCKA.Views.SingleTask">
-  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <StackLayout>
+    <Label
+      Text="TASK -TITLEE ;_;"></Label>
+    <ProgressBar
+      BackgroundColor="Green"></ProgressBar>
+    <ListView></ListView>
+    <!--LISTA DAT?-->
+    <Label></Label>
+    <ListView></ListView>
+    <!--LISTA TASKÓW -PROGRESS-->
+    <Button
+      Clicked="NavigateBack"
+      BackgroundColor="Blue"
+      TextColor="White"
+      Text="Back"></Button>
+  </StackLayout>
 </ContentPage>
